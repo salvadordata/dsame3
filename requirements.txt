@@ -1,5 +1,22 @@
-faster_whisper
-numpy
-sounddevice
-soundfile
-tqdm
+# Core Dependencies
+numpy==1.24.3             # For numerical operations
+sounddevice==0.4.6        # For real-time audio playback and recording
+soundfile==0.12.1         # For reading/writing sound files
+tqdm==4.66.1              # For progress bars
+
+# Faster Whisper (for faster ASR models)
+faster_whisper==0.5.1     # Whisper model optimization
+
+# Audio Processing
+pydub==0.25.1             # For manipulating audio files
+wavefile==0.2.0           # For handling WAV files
+
+# For Transcription (Optional)
+torch==2.0.1              # PyTorch for machine learning models
+transformers==4.33.0      # Huggingface Transformers library for ASR
+
+# Logging and Debugging
+loguru==0.7.0             # Enhanced logging
+
+# Dependencies for dsame3 and FreeDEC
+paho-mqtt==1.6.1          # For MQTT messaging
